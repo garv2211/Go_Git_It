@@ -1,0 +1,89 @@
+@font-face {
+    font-family: JetBrains;
+    src: url("./JetBrainsMono-Medium.ttf");
+}
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: JetBrains;
+    color: #EDC056;
+}
+
+body{
+    background-color: #13161B;
+    background-image: url("./background2.png");
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+nav img{
+    height: 50px;
+}
+
+.githubCat>img{
+    height: 350px;
+    filter: drop-shadow(0 0 0.30rem rgba(231, 231, 231, 0.621));
+    transition: all 0.5s;
+}
+
+.githubCat>img:hover{
+    height: 350px;
+    filter: drop-shadow(0 0 0.90rem rgba(237, 237, 237, 0.758));
+}
+.githubCat h1{
+    font-size: 50px;
+}
+
+.githubCat{
+    margin: 60px 0 150px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+    align-items: center;
+}
+
+.contribute{
+    text-align: center;
+}
+
+.contributions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 200px 0;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+@media (max-width:750px) {
+    nav{
+        padding: 15px 30px;
+    }
+    .githubCat{
+        column-gap: 0rem;
+        row-gap: 1rem;
+        flex-direction: column;
+    }
+
+    .githubCat h1{
+        font-size: 40px;
+    }
+
+    
+    .contribute{
+        font-size: 26px;
+        padding: 0 10px;
+    }
+
+    .contributions h2{
+        font-size: 20px;
+    }
+
+}
