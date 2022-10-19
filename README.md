@@ -120,7 +120,7 @@ $ git push origin main
 ```
 
 
-### 5. Create a new branch :bang:
+### 5. Create a new branch :bangbang:
 
 Whenever you are going to contribute. Please create a separate branch using command and keep your `main` branch clean (i.e. synced with remote branch).
 
